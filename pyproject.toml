@@ -11,9 +11,6 @@ license = { text = "MPL-2.0" }
 authors = [{ name = "Bandar AlSwyan" }]
 requires-python = ">=3.9"
 dependencies = ["arabic-rt>=0.1.4"]
-
-[project.optional-dependencies]
-dev = ["pytest>=7"]
 keywords = ["arabic", "nlp", "ocr", "pdf", "text-repair", "bidi", "presentation-forms"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -24,6 +21,9 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
 
 [project.urls]
 Homepage    = "https://github.com/balswyan/arabic-repair"

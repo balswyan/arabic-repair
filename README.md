@@ -2,6 +2,8 @@
 
 Detect and repair visually-baked Arabic text extracted from PDFs, OCR engines, and legacy sources.
 
+![arabic-repair demo](docs/demo.png)
+
 ## The problem
 
 Arabic text stored in old PDF streams, scanned documents (OCR), and legacy systems is often

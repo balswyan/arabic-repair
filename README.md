@@ -9,6 +9,8 @@
 
 **[🤗 Live demo](https://huggingface.co/spaces/balswyan/arabic-rt)** · **[📖 Article](https://huggingface.co/spaces/balswyan/arabic-nlp)** · **[📦 PyPI](https://pypi.org/project/arabic-repair/)**
 
+![Logical vs visual-order Arabic — the bytes differ even when the screen looks identical; NFKC cannot fix the order, arabic-repair does](docs/pipeline.png)
+
 ![arabic-repair demo](docs/demo.png)
 
 ## The problem
